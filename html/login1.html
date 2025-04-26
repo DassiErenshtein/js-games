@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/logIn.css">
+</head>
+
+<body onload="loading1()" onkeypress="checkEnter()">
+    <input type="radio" id="loginForm" name="formToggle" checked>
+    <input type="radio" id="registerForm" name="formToggle">
+    <input type="radio" id="forgotForm" name="formToggle">
+    <div class="wrapper" id="loginFormContent">
+        <!-- <form> -->
+            <h1>WELCOME TO DLMgames</h1>
+            <div class="input-box">
+                <input type="text" placeholder="Username" required class='userName'>
+                <div class='errorUserName' hidden></div>
+            </div>
+            <div class="input-box" hidden>
+                <input type="email" placeholder="Email" class="email" required>
+                <div class='errorEmail' hidden></div>
+            </div>
+            <div class="input-box">
+                <input type="password" placeholder="Password" class="password" required>
+                <div class='errorPassword' hidden></div>
+            </div>
+            <div class="checkbox1">
+                <label  class="check"><input type="checkbox">Remember Me</label>
+                <label id="forgot">Forgot Password</label><br>
+                
+            </div>
+            <button class="btn" >Login</button>
+            <div class='errorLet' hidden></div>
+            <div class="link">
+                <p>Don't have an account?</p> <label id="Reg">Register</label>
+              </div>
+        <!-- </form> -->
+    </div>
+    
+    <script src="../js/login.js"></script>
+</body>
+
+</html>

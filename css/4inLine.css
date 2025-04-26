@@ -1,0 +1,17 @@
+
+/* כפתורי המשחק עצמו */
+div{
+    height: 60%;
+    width: 60%;
+    margin-top: 0;
+    margin-right: 20%;  
+    padding-top:0;  
+}
+.inLinePlay button{
+    border-radius: 40%;
+    width:12%;
+    height: 50px;
+    background-color: rgb(160, 239, 242);
+}
+div .ba{background-color: rgb(243, 10, 10);}
+div .bb{background-color:rgb(232, 247, 26)}

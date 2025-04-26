@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/logIn.css">
+    <title>Document</title>
+</head>
+
+<body onkeypress="checkEnter()">
+    <div class="wrapper" id="loginFormContent">
+        <h1>let us to know about your hobbies</h1>
+        <label>your lovely color:</label><br>
+        <input type="color" onchange="keepColor()"><br>
+        <label>your lovely font:</label><br>
+        <select onchange="keepFont()">
+            <option value="fantasy">fantasy</option>
+            <option value="monospace">monospace</option>
+            <option value="serif"> serif</option>
+            <option value="cursive">cursive</option>
+            <option value="inherit">inherit</option>
+        </select><br><br>
+        <!-- שיראו כאן את הפונט -->
+        <p id="seeFont">this is your font</p><br>
+        <button id="save" onclick="toComeIn()">save</button><br>
+        
+    </div>
+    <!-- </form> -->
+    <script src="../js/logIn.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,16 @@
+.failure{
+    border: white,solid,2px;
+    margin:0px;
+}
+.alphabet{
+    width:11%;
+    height:5vh;
+ }
+ .divHidden{
+    height: 100px;
+    margin-top: 0px;
+    
+}
+#gameH{
+    width: 60%;
+}

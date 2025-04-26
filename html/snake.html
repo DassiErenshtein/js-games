@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/snake.css">
+</head>
+
+<body onload="checkLevel(),load1()" onkeydown="moveSnake()">
+    <button onclick="close1()">Main Menu</button>
+    <p id="userName"></p>
+    <p id="timer"></p>
+    <p id="score">score:0</p>
+    <!-- אודות המשחק -->
+    <p id="text1" hidden>
+        <label>Stage 1:</label> Diamond Dash
+
+        Embark on a dazzling diamond quest! Guide your nimble serpent through a sparkling gem-laden world, gobbling up
+        as many precious stones as you can.
+
+        Beware of self-collision, and keep your eyes peeled for rare red diamonds worth extra points! Reach the
+        glittering crown to advance to the next level.
+        Remember, you've got this! Keep slithering and shining, and you'll emerge victorious!
+    </p>
+    <script src="../js/general.js"></script>
+    <script src="../js/snake.js"></script>
+</body>
+
+</html>

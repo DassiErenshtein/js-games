@@ -1,0 +1,309 @@
+
+body{
+    color: white;
+    background-image: url('../pic/backGround.jpg');
+    /* direction: rtl; */
+    display: grid;
+    height: 100vh;
+      grid-template-columns: 40% 60%;
+     grid-template-rows: 10% 20% 65%;
+    /* gap:15px; */
+
+    grid-template-areas: "s1 s2" "s3 s2" "s4 s2";
+    text-shadow: 3px 2px 7px #000000;
+}
+table{
+  /* margin-right: 5vh; */
+    direction: ltr;
+    width:60%;
+    height:90vh;
+    background-color: black;
+    border: rgb(36, 214, 245) 10px solid;
+    margin-left:37%;
+    
+    text-transform: uppercase;
+    position: fixed;
+margin-top: 5vh;
+    grid-area: s2;
+}
+#timer{
+  color: red;
+  position: fixed;
+  top:9%;
+  font-size: 4vw;
+  left:5%
+}
+#text1{
+  font-size: large;
+  width: 80%;
+  grid-area: s4;
+   /* border: 1px solid white;   */
+    backdrop-filter: blur(4px);  
+    color: #fff; 
+    border-radius: 12px;  
+    padding: 30px; 
+    /* text-align: center; */
+    margin-top: 9%;
+    margin-bottom: 2%;
+    font-size: 1.6vw;
+    margin-right: 5%;
+}
+#text1 label{
+  font-weight :bold;
+}
+.divLevels{
+  display:block;
+  width: 60vw;
+  margin-left: 20vw;
+  margin-top:10vh
+  /* grid-area: s4; */
+}
+.levels{
+  background: transparent;  
+    border: 1px solid white;  
+    backdrop-filter: blur(4px);  
+    color: #fff; 
+    border-radius: 12px;  
+    padding: 20px 20px;  
+    text-align: center;
+    width:100%;
+  height: 10vh;
+  font-size: 4vw;
+  margin-bottom: 3%;
+}
+.base{
+    /* background-color: gray; */
+    /* border:10px,solid,black; */
+    opacity: 0.5;
+}
+.goalTemporary{
+    background-image: url('../pic/dimondRed.png');
+    background-size: cover;
+    /* box-shadow: red 0px 0px 10px 0; */
+    /* animation: blink 1s infinite; */
+
+}
+.snake,.tail{
+    background-color: Silver;
+    border-radius:500000000000000000px;
+}
+.head{
+    background-color: rgb(233, 108, 108);
+    border-radius: 9999999px;
+    opacity: 1;
+
+}
+@keyframes blink {
+  0% {
+    filter: blur(0px);
+  }
+  50% {
+    filter: blur(2px);
+  }
+  100% {
+    filter: blur(3px);
+  }
+} 
+.bomp{
+  background-color:cadetblue;
+}
+.goal{
+    /* background-color: green; */
+    background-image: url('../pic/dimond1.png');
+    background-size: cover;
+    /* border-radius:500000px; */
+    /* animation: blink 1s infinite; */
+
+}
+#gameOverDiv{
+  width:100%;
+  height: 100%;
+}
+.crown{
+  background-image: url('../pic/crown1.png');
+  background-size: cover;
+}
+/* .playAgain{
+  position: absolute;
+  left: 35%;
+  right: 35%;
+  text-align: center;
+  justify-content: center;
+  background-color: transparent;
+  color: beige;
+  width:30%;
+  height: 10vh;
+} */
+/* .playAgain:hover{
+  background-color: gray;
+  color: white;
+  opacity: 40%;
+  font-display: block;
+} */
+/* מהמשחק MANAGA */
+#maxScore,#your_score{
+  display: block;
+	/* position: relative; */
+	width: 500px;
+	padding: 12px 20px;
+	background: transparent;
+	border: none;
+	outline: none;
+	user-select: none;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-weight: bold;
+	
+	color: #fff;
+	opacity: 0.75;
+	transition: opacity 0.3s;
+  
+  
+  margin:10px;
+  user-select: none;
+    text-transform: uppercase;
+    position: fixed;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    text-wrap: balance;
+    font-weight: 900;
+    mix-blend-mode: difference;
+    color: #fff;
+    line-height: 1.3em;
+    letter-spacing: 0.1ch;
+}
+#your_score{top: 50%;
+  font-size: 3rem;
+  left: 43%;
+}
+#maxScore{top: 60%;font-size: 1.4rem;left: 43%;}
+button{
+display: block;
+	position: relative;
+	width: 400px;
+	padding: 12px 20px;
+	background: transparent;
+	border: none;
+	outline: none;
+	user-select: none;
+	font-family: monospace;
+	font-weight: bold;
+	font-size: 3vw;
+	color: #fff;
+	opacity: 0.75;
+	transition: opacity 0.3s;
+  left: 43%;
+  position: fixed;
+  margin:10px;
+/*  */
+user-select: none;
+    text-transform: uppercase;
+    position: fixed;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    text-wrap: balance;
+    font-weight: 900;
+    mix-blend-mode: difference;
+    color: #fff;
+    line-height: 1.3em;
+    letter-spacing: 0.1ch;
+}
+.playAgain1{top: 75%;}
+.playAgain2{top: 90%;}
+
+
+  button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.15);
+    transform: scale(0, 0);
+    opacity: 0;
+    transition: opacity 0.3s, transform 0.3s;
+  }
+  button:active {
+    opacity: 1;
+  }
+  
+  button:active::before {
+    transform: scale(1, 1);
+    opacity: 1;
+  }
+/* game over */
+html {
+    font-family: system-ui, sans-serif;
+  }
+  body {
+    overflow: hidden;
+  }
+  .background {
+    position: fixed;
+    animation: skew 20s alternate infinite ease-in-out;
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(
+        to left,
+        #fff 0,
+        #fff 10px,
+        transparent 10px,
+        transparent 20px
+      ),
+      linear-gradient(#fff 0, #fff 10px, #000 10px, #000 20px);
+    background-size: 20px 20px;
+    background-position: center;
+  }
+  @keyframes skew {
+    from {
+      transform: skew(0);
+    }
+    50% {
+      background-size: 100% 100%;
+    }
+    to {
+      transform: skew(180deg);
+    }
+  }
+  .title {
+    user-select: none;
+    text-transform: uppercase;
+    font-size: 7vw;
+    position: fixed;
+    top: 20%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    text-wrap: balance;
+    font-weight: 900;
+    mix-blend-mode: difference;
+    color: #fff;
+    line-height: 1.3em;
+    letter-spacing: 0.1ch;
+
+  }
+  #score{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 6vw;
+    grid-area: s3;
+  }
+  #userName{
+    /* left: 10%; */
+    font-weight: 300;
+    font-size: 4vw;
+    text-transform: lowercase;
+    font-family: cursive;
+    color: white;
+    user-select: none;
+    position: fixed;
+    /* top: 20%; */
+    /* transform: translate(-50%, -50%); */
+    text-align: center;
+    text-wrap: balance;
+    font-weight: 900;
+    line-height: 1.3em;
+    letter-spacing: 0.1ch;
+}
+
+  
+  

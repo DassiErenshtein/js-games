@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../css/htmlPage2.css">
+
+</head>
+
+<body onload="myFunction()" style="margin:0;">
+
+  <div id="loader"></div>
+
+  <div id="myDiv" class="animate-bottom">
+    <h2>The game is under development,<br> please try again later</h2>
+    <a href="./menu.html">return to main menu</a>
+  </div>
+
+  <script>
+    var myVar;
+
+    function myFunction() {
+      myVar = setTimeout(showPage, 3000);
+    }
+
+    function showPage() {
+      document.getElementById("loader").style.display = "none";
+      document.getElementById("myDiv").style.display = "block";
+    }
+  </script>
+
+</body>
+
+<!-- Mirrored from www.w3schools.com/howto/tryit.asp?filename=tryhow_css_loader5 by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 09 Jan 2019 11:53:09 GMT -->
+
+</html>
