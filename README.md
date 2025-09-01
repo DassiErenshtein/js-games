@@ -60,7 +60,7 @@ No additional setup is required; open the file directly in your browser.
 ![Login Or Register](pic/show/login.jpg)
 
 ### Main Menu
-![Main Menu](pic/show/main menu.jpg)
+![Login Or Register](pic/show/main menu.jpg)
 
 ### Hang Man
 ![Hang Man](pic/show/hang man.jpg)
