@@ -1,45 +1,154 @@
-# js-games
+# FunJS Games
 
-A complete project featuring a login page, registration page, forgetPassword page, personal customization page, games menu, and an advanced Snake game with full user management and personalization.
+A collection of fun and interactive JavaScript games designed for all ages.  
+The project includes several mini-games with customization options, score tracking, and a user-friendly interface.
 
-## 🔧 Setup Instructions
+---
 
-1. Clone the repository:
-   git clone https://github.com/DassiErenshtein/js-games.git
-2. Navigate to the project folder:
-   cd html
-3. Open the login1.html file in a compatible development environment (e.g., Visual Studio Code).
+## 🎮 Games Included
+- **Smart Snake** – A classic Snake game with improved logic.  
+- **Connect Four (2-Player)** – Challenge a friend in a 4-in-a-row game.  
+- **Hangman** – Available in both Hebrew and English.  
+- **Matching Game** – Age-appropriate card matching game.
 
-## 📋 Project Structure
+---
 
-- **Login and Registration Page**:
-  - Validate username, password, and email.
-  - Handle password reset and new user registration.
-  - Store users in LocalStorage and manage sessions with SessionStorage.
+## 🛠️ Technologies Used
+- HTML  
+- JavaScript  
+- CSS  
+- **LocalStorage** for saving preferences and scores  
+- Type conversions for smooth functionality
 
-- **Personal Customization Page**:
-  - Choose a favorite color for obstacles and a preferred font for gameplay.
+---
 
-- **Games Menu**:
-  - Access multiple games via a menu.
-  - Games are launched using the `open1` function.
+## ✨ Features
+- Save high scores  
+- Save preferred colors and fonts  
+- Age-based game customization  
+- Display of top players
 
-- **Snake Game**:
-  - Control the snake with arrow keys.
-  - Collect diamonds, avoid obstacles, and level up.
-  - Track and save high scores.
+---
 
-- **Scoreboard Page**:
-  - Display the top 4 highest scores across all users (in your browser).
+## 📂 Project Structure
+```bash
+.git/
+css/
+html/
+js/
+pic/
+סאונד/  # Sound folder
+README.md
+```
+The entry point is `html/login1.html`, which leads to the main games page.  
+No additional setup is required; open the file directly in your browser.
 
-## 🚀 Main Features
+---
 
-- User authentication and registration.
-- Password recovery via email.
-- Score tracking and high score system.
-- Level advancement in Snake gameplay.
-- Personalized color and font settings for each user.
+## 🚀 Getting Started
+1. Clone this repository:
+    ```bash
+    git clone https://github.com/your-username/FunJS-Games.git
+    ```
+2. Open `html/login1.html` in your browser.  
+3. Start playing! 🎉
 
-## 📄 License
+---
 
-MIT License
+## 🖼️ Screenshots
+Here’s how you can embed your screenshots:
+```markdown
+# FunJS Games
+
+A collection of fun and interactive JavaScript games designed for all ages.  
+The project includes several mini-games with customization options, score tracking, and a user-friendly interface.
+
+---
+
+## 🎮 Games Included
+- **Smart Snake** – A classic Snake game with improved logic. Features endless progressive levels, increasing speed, and obstacles that make the game continuously more challenging.  
+- **Connect Four (2-Player)** – Challenge a friend in a 4-in-a-row game.  
+- **Hangman** – Available in both Hebrew and English.  
+- **Matching Game** – Age-appropriate card matching game.
+
+---
+
+## 🛠️ Technologies Used
+- HTML  
+- JavaScript  
+- CSS  
+- **LocalStorage** for saving preferences and scores  
+- Type conversions for smooth functionality
+
+---
+
+## ✨ Features
+- Save high scores  
+- Save preferred colors and fonts  
+- Age-based game customization  
+- Display of top players  
+- Progressive difficulty in Snake with obstacles and increasing speed
+
+---
+
+## 📂 Project Structure
+```bash
+.git/
+css/
+html/
+js/
+pic/
+סאונד/  # Sound folder
+README.md
+```
+The entry point is `html/login1.html`, which leads to the main games page.  
+No additional setup is required; open the file directly in your browser.
+
+---
+
+## 🚀 Getting Started
+1. Clone this repository:
+    ```bash
+    git clone https://github.com/your-username/FunJS-Games.git
+    ```
+2. Open `html/login1.html` in your browser.  
+3. Start playing! 🎉
+
+---
+
+## 🖼️ Screenshots
+### Login Or Register
+![Login Or Register](pic/show/login.jpg)
+### Main Menu
+![Main Menu](pic/show/main menu.jpg)
+### Hang Man
+![Hang Man](pic/show/hang man.jpg)
+
+---
+
+## 🎥 Demo Video
+### Snake
+![Snake Game](pic/show/snake game.gif)
+### 4 In Row
+![4 In Row](pic/show/4 in row.gif)
+### Match Play
+![4 In Row](pic/show/match play.gif)
+
+---
+
+## 🎥 Demo Video
+To embed a demo video (GIF or video link):
+```markdown
+![Demo Video](pic/demo.gif)
+```
+Or, you can link to YouTube:
+```markdown
+[Watch the demo video](https://youtube.com/your-video-link)
+```
+
+---
+
+## 📜 License
+No license specified.
+
+---
