@@ -78,8 +78,3 @@ No additional setup is required; open the file directly in your browser.
 ![4 In Row](pic/show/matchPlay.gif)
 
 ---
-
-## 📜 License
-No license specified.
-
----
