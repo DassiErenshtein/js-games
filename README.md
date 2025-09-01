@@ -58,8 +58,10 @@ No additional setup is required; open the file directly in your browser.
 ## 🖼️ Screenshots
 ### Login Or Register
 ![Login Or Register](pic/show/login.jpg)
+
 ### Main Menu
 ![Main Menu](pic/show/main menu.jpg)
+
 ### Hang Man
 ![Hang Man](pic/show/hang man.jpg)
 
@@ -68,22 +70,12 @@ No additional setup is required; open the file directly in your browser.
 ## 🎥 Demo Video
 ### Snake
 ![Snake Game](pic/show/snake game.gif)
+
 ### 4 In Row
 ![4 In Row](pic/show/4 in row.gif)
+
 ### Match Play
 ![4 In Row](pic/show/match play.gif)
-
----
-
-## 🎥 Demo Video
-To embed a demo video (GIF or video link):
-```markdown
-![Demo Video](pic/demo.gif)
-```
-Or, you can link to YouTube:
-```markdown
-[Watch the demo video](https://youtube.com/your-video-link)
-```
 
 ---
 
