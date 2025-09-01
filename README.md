@@ -60,22 +60,22 @@ No additional setup is required; open the file directly in your browser.
 ![Login Or Register](pic/show/login.jpg)
 
 ### Main Menu
-![Login Or Register](pic/show/main menu.jpg)
+![Login Or Register](pic/show/mainMenu.jpg)
 
 ### Hang Man
-![Hang Man](pic/show/hang man.jpg)
+![Hang Man](pic/show/hangMan.jpg)
 
 ---
 
 ## 🎥 Demo Video
 ### Snake
-![Snake Game](pic/show/snake game.gif)
+![Snake Game](pic/show/snakeGame.gif)
 
 ### 4 In Row
-![4 In Row](pic/show/4 in row.gif)
+![4 In Row](pic/show/4inRow.gif)
 
 ### Match Play
-![4 In Row](pic/show/match play.gif)
+![4 In Row](pic/show/matchPlay.gif)
 
 ---
 
